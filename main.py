@@ -34,11 +34,11 @@
 #3. Написати рекурсивну функцію, яка обчислює суму всіх чисел у діапазоні від a до b
 #Користувач вводить a та b. Проілюструйте роботу функції прикладом
 
-def sum_range(a, b):
-    if a > b:
-        return 0
+#def sum_range(a, b):
+#    if a > b:
+#        return 0
 
-    return a + sum_range(a+1, b)
+#    return a + sum_range(a+1, b)
 #print(sum_range(1, 5))
 #sum_range(1,5) = (1+2+3+4+5) = 15
 #sum_range(1,4) = (1+2+3+4) = 10
